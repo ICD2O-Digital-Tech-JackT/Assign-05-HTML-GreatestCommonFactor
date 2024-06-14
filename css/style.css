@@ -1,4 +1,20 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+/*Appearance for header*/
+.header{
+  background-color: #ffd48a;
+  color: #ff6f00;
+  font-weight: 500;
+  font-size: 50px;
+  padding: 20px;
+}
+/*Appearance for inputs*/
+.input{
+  color: #d58d07;
+}
+/*Appearance for result text*/
+.text{
+  color: #a86f05;
+}
+/*Appearance for background*/
+html{
+  background-color: #fbefd5;
+}

@@ -15,6 +15,24 @@
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-orange.min.css" />
 </head>
   <body>
-    <p>Paragraph</p>
+    <!-- Header -->
+    <p class="header">Greatest common factor calculator</p>
+    <br>
+    <!--Instructions-->
+    <p class="text">To use this site, enter two whole, non equal, positive numbers, and click calculate to get the greatest common factor between the two</p>
+    <!-- User inputs -->
+    <p class="input">Enter first number: <input id = "1" placeholder="Whole, positive number"></p>
+    <p class="input">Enter second number: <input id = "2" placeholder="Whole, positive number"></p>
+    <!-- Calculate button -->
+    <button onclick="Result()" id="submit"class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Calculate
+    </button>
+    <br><br>
+    <!--Output-->
+    <p>Result: </p>
+    <div class="text" id="Result"></div>
+    <!--Scripts-->
+    <script src="/js/script.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </body>
 </html>
