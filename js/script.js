@@ -1,9 +1,16 @@
 function Calculate(n1,n2){
+  n1 = Number(n1)
+  n2 = Number(n2)
   let Result = null
   /*Check if numbers are valid*/
   if ( n1 && n2 && n1>1 && n2>1 && Math.round(n1)==n1 && Math.round(n2)==n2 && n1!=n2){
     let index = 1
-    for ()
+    for (; index < n1+1; index++) {
+      //Check if number is a factor of both user numbers
+      if (n1/index==Math.round(n1/index) && n2/index==Math.round(n2/index)){
+        Result = index
+      }
+    }
   } else{
     return null
   }
